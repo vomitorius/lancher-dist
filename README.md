@@ -1,7 +1,7 @@
 # Zengo LANcher
 
 LAN parti játékindító. Kiválasztod a listából a játékot, a többit elvégzi:
-letölti, telepíti, beállítja a felbontást, elindítja. Tíz klasszikus játék,
+letölti, telepíti, beállítja a felbontást, elindítja. Tizenkét klasszikus játék,
 ugyanaz a menü Linuxon és Windowson.
 
 Nem kell Steam, nem kell rendszergazda, és semmit nem telepít a rendszer
@@ -69,7 +69,7 @@ Parancssorból is megy, mindkét platformon ugyanígy (Windowson `lancher.exe`):
 
 ## Játékok
 
-Ugyanez a tíz játék, ugyanebben a sorrendben, mindkét platformon:
+Ugyanez a tizenkét játék, ugyanebben a sorrendben, mindkét platformon:
 
 | id | játék | Linuxon | Windowson | méret |
 |---|---|---|---|---|
@@ -83,6 +83,8 @@ Ugyanez a tíz játék, ugyanebben a sorrendben, mindkét platformon:
 | `war3` | Warcraft III + Frozen Throne | Wine | natívan | ~261 MB |
 | `scbw` | StarCraft + Brood War | Wine + cnc-ddraw | natívan + cnc-ddraw | ~110 MB |
 | `aoe2` | Age of Empires II + The Conquerors | Wine | natívan | ~140 MB |
+| `nfsu2` | NFS Underground 2 | Wine | natívan | ~205 MB |
+| `stk` | SuperTuxKart | natívan | natívan | ~700 MB |
 
 A játékcsomagok Windows játékok, ezért Windowson közvetlenül futnak, Linuxon
 pedig Wine alatt, játékonként külön Wine prefixben, hogy ne zavarják egymást.
@@ -93,6 +95,10 @@ használja, mert stabilabb.
 **Client** módot. A hoston Server, a többieken Client, ott a script megkérdezi a
 szerver IP-jét. Linuxon Zandronum + Doomseeker (port `10666`), Windowson
 chocolate-doom (port `2342`), mert Zandronum nincs Windowsra.
+
+**Autós címek.** Az NFS Underground 2 LAN-ja négy játékos (Multiplayer → LAN).
+A SuperTuxKart nyílt forrású, natívan fut mindkét platformon, LAN-ja nyolc
+játékos (Online → Local Network) — a letöltése viszont a legnagyobb a listában.
 
 **Felbontás.** Ezek a motorok 4:3-ra készültek, és szélesvásznon nem tágítják a
 látómezőt, hanem szétnyújtják a képet. Ezért nem a monitor natív felbontása megy
