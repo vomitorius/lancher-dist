@@ -146,6 +146,16 @@ alap viselkedése. További információ → Futtatás mindenképp.
 hogy leüss egy gombot. Ha mégis, indítsd parancssorból (`lancher.exe list`), ott
 a hibaüzenet a képernyőn marad.
 
+**Windows: a CS 1.6 / Day of Defeat / TFC sorozatszámot kér, vagy fekete a kép.**
+Ezek a csomagok a beállításaikat (renderer, CD-key) a registryből olvassák, amit
+a lancher az indítás előtt beír. Ha korábbi verzióval már próbáltad, futtasd újra
+a `play`-t — a beállítás minden indításnál megy be.
+
+**Windows: a víruskereső karanténba tesz valamit a GoldSrc-es játékoknál.** A CS
+1.6 / DoD / TFC portable csomagokban Steam-emulátor van, amit a Defender néha
+„HackTool"-ként jelöl. Ha ez történik, vedd fel kivételnek a
+`C:\Users\<te>\.local\share\zengo-lancher\games\` mappát.
+
 **A menü szemétnek látszik / nincsenek nyilak.** Windowson használj Windows
 Terminalt a régi `cmd.exe` helyett. Ha a színek zavarnak, `NO_COLOR=1` mellett
 egyszerű, számozott menüt ad. Pipe-ba vagy fájlba irányítva magától így viselkedik.
