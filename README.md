@@ -97,8 +97,15 @@ szerver IP-jét. Linuxon Zandronum + Doomseeker (port `10666`), Windowson
 chocolate-doom (port `2342`), mert Zandronum nincs Windowsra.
 
 **Autós címek.** Az NFS Underground 2 LAN-ja négy játékos (Multiplayer → LAN).
+A felbontását a lancher állítja be a képernyőbe beférő legnagyobb 4:3-as módra
+(jellemzően 1280x960); a játék Options → Display menüjében utólag átállítható.
+Windowson ez a beállítás rendszergazdai jogot igényel, ezért ott előfordulhat,
+hogy a játék a saját mentett felbontásán indul.
+
 A SuperTuxKart nyílt forrású, natívan fut mindkét platformon, LAN-ja nyolc
 játékos (Online → Local Network) — a letöltése viszont a legnagyobb a listában.
+Modern motor, ezért nem a 4:3-as módokból választ: a monitor natív felbontását
+kapja teljes képernyőn.
 
 **Felbontás.** Ezek a motorok 4:3-ra készültek, és szélesvásznon nem tágítják a
 látómezőt, hanem szétnyújtják a képet. Ezért nem a monitor natív felbontása megy
